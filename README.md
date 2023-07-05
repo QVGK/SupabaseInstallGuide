@@ -1,11 +1,14 @@
-### Updating Everything:
-Update all libraries with `apt update`, and then upgrade with `apt upgrade`.
+# Installing & Running Supabase
 
-### Installing Git:
-Install git with `apt install git`.
+### Updating & Installing Libraries:
+It's important to update, and install all required libraries.
+```
+$ apt update
+$ apt upgrade
 
-### Installing Docker:
-Install docker with `apt install docker.io`, and refer to the steps below to install docker-compose.
+$ apt install git
+$ apt install docker.io
+```
 
 ### Installing Docker Compose:
 First, we're going to download the latest release of docker-compose:
